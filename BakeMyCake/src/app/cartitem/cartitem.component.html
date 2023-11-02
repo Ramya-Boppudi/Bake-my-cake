@@ -1,0 +1,102 @@
+<mat-toolbar id="header" color="primary">
+    <h1>Order Request</h1>
+    <nav>
+        <mat-icon routerLink="/">home</mat-icon>
+    </nav>
+</mat-toolbar>
+<section id="item-content">
+    <div id="item-detail">
+        <h1>{{item?.itemName}}</h1>
+        <h3>
+            {{item?.rating}}
+            <mat-icon color="accent" *ngFor="let star of stars">star</mat-icon>
+        </h3>
+        <img src="../../assets/cake/{{item?.image}}.jpg">
+        <h2>Price ${{item?.price}} USD &nbsp;<span id="per-item"> PER ITEM</span></h2>
+        <p>{{item?.description}}</p>
+    </div>
+
+    <form id="item-request">
+        <h3>Enter your details</h3>
+        <mat-form-field >
+            <mat-label>Name</mat-label>
+            <input matInput type="text" required placeholder="Name" name="customerName" #customerName="ngModel" [(ngModel)] = "customer.customerName" pattern="[a-zA-Z]+">
+            <mat-error  *ngIf="customerName.errors?.['required']">
+                Customer Name is required
+           </mat-error>
+           <mat-error *ngIf="customerName.errors?.['pattern']">
+                Enter Valid name.
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field >
+            <mat-label>Email</mat-label>
+            <input matInput type="email" required placeholder="Email" name="customerEmail" #customerEmail="ngModel"
+                [(ngModel)]="customer.customerEmail" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$">
+
+            <mat-error *ngIf="!customerEmail.valid && customerEmail.touched">
+                <span *ngIf="customerEmail.errors?.['required']">Email id is required</span>
+                <span *ngIf="customerEmail.errors?.['pattern']">Enter a valid email id</span>
+                <span *ngIf="customerEmail.errors?.['startsWithAlphabet']">Email should start with an alphabet</span>
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Phone</mat-label>
+            <input matInput type="phone"required placeholder="Phone" name="customerPhone" #customerPhone="ngModel" [(ngModel)] = "customer.customerPhone" pattern="^[7-9][0-9]{9}$">
+            <mat-error *ngIf="customerPhone.errors?.['required']">
+                Invalid phone number. Please enter a 10-digit number.
+              </mat-error>
+              <mat-error *ngIf="customerPhone.errors?.['pattern']">
+                Enter valid phone number containing 10 digits starting with 7/8/9
+           </mat-error>
+        </mat-form-field>
+        
+        
+        <mat-form-field>
+            <mat-label>Select Date</mat-label>
+            <input matInput [matDatepicker]="picker" [min]="tdate" required  placeholder="Enter date of delivery" name="orderDate" #orderDate="ngModel" [(ngModel)]="customer.orderDate">
+            <mat-hint>DD/MM/YY</mat-hint>
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+            <mat-error *ngIf="orderDate.errors?.['required']">date is mandatory</mat-error> 
+        </mat-form-field>
+
+
+        <mat-form-field>
+            <mat-label>address</mat-label>
+            <textarea matInput rows="1" required placeholder="address" name="address" [(ngModel)]= "customer.address" #address="ngModel" minlength="30">
+            </textarea>
+            <div *ngIf="address?.invalid && (address?.dirty || address?.touched)">
+                <mat-error *ngIf="address.errors?.['required']">
+                    address cannot be empty.
+                </mat-error>
+                <mat-error *ngIf="address.errors?.['minlength']">
+                    Address Minimum Length is{{address.errors?.['minlength']?.requiredLength}}
+                </mat-error>
+            </div>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Message</mat-label>
+            <input matInput type="message"required placeholder="Message" name="Message" #Message="ngModel"  [(ngModel)] = "customer.message">
+            <mat-error *ngIf="Message.errors?.['required']">
+                Message is required
+           </mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Quantity</mat-label>
+            <input matInput type="number" min="1" required placeholder="Quantity" name="Quantity" #Quantity="ngModel" [(ngModel)] = "customer.quantity">
+            <mat-error *ngIf="Quantity.errors?.['required']">
+                Quantity is required
+           </mat-error>
+           <mat-error *ngIf="Quantity.errors?.['min']">
+                Quantity cannot be 0 or negative
+            </mat-error>
+        </mat-form-field>
+
+        <button mat-flat-button color="primary" [disabled]="Quantity.invalid" [disabled]="customerEmail.invalid" [disabled]="customerName.invalid" [disabled]="customerPhone.invalid"
+         (click)="makeRequest()">Make Request</button>
+    </form>
+</section>

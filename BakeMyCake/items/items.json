@@ -1,0 +1,311 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "itemName": "Berries Summer Cupcakes",
+      "price": 2.99,
+      "rating": 4.5,
+      "category": "cakes",
+      "image": "Berries Summer Cupcakes",
+      "description": "Berries Summer Cupcakes are delightful and refreshing treats that capture the vibrant flavors of summer."
+    },
+    {
+      "id": 2,
+      "itemName": "Chocolate Cupcake",
+      "price": 1.99,
+      "rating": 5,
+      "category": "cakes",
+      "image": "Chocolate Cupcake",
+      "description": "Chocolate cupcakes are a classic and beloved dessert that satisfy even the strongest cravings for something sweet and indulgent."
+    },
+    {
+      "id": 3,
+      "itemName": "Easter Cupcakes",
+      "price": 1.99,
+      "rating": 5,
+      "category": "cakes",
+      "image": "Easter Cupcakes",
+      "description": "Easter cupcakes are delightful and festive treats that add a touch of whimsy to Easter celebrations."
+    },
+    {
+      "id": 4,
+      "itemName": "Pumpkin Spice Cupcakes",
+      "price": 2.99,
+      "rating": 4.5,
+      "category": "cakes",
+      "image": "Pumpkin Spice Cupcakes",
+      "description": "Pumpkin spice cupcakes are a delicious and seasonal treat that capture the cozy flavors of autumn."
+    },
+    {
+      "id": 5,
+      "itemName": "Cherry Jelly Cheesecake",
+      "price": 6.99,
+      "rating": 3.5,
+      "category": "cakes",
+      "image": "Cherry Jelly Cheesecake",
+      "description": "Cherry jelly cheesecake is a delightful and fruity twist on the classic cheesecake dessert. It combines the creamy richness of a cheesecake with the vibrant flavors of cherry jelly, creating a luscious and refreshing treat."
+    },
+    {
+      "id": 6,
+      "itemName": "Chocolate Blueberries Cake",
+      "price": 5.99,
+      "rating": 5,
+      "category": "cakes",
+      "image": "Chocolate Blueberries Cake",
+      "description": "Chocolate blueberry cake is a delectable and indulgent dessert that combines the richness of chocolate with the natural sweetness of blueberries."
+    },
+    {
+      "id": 7,
+      "itemName": "Classic Cheesecake",
+      "price": 8.99,
+      "rating": 4,
+      "category": "cakes",
+      "image": "Classic Cheesecake",
+      "description": "Classic cheesecake is a timeless and decadent dessert loved by many. It features a smooth and creamy filling made primarily from cream cheese, sugar, eggs, and vanilla extract, baked on a buttery graham cracker or cookie crust."
+    },
+    {
+      "id": 8,
+      "itemName": "Cookies Cream Cake",
+      "price": 7.99,
+      "rating": 4.8,
+      "category": "cakes",
+      "image": "Cookies Cream Cake",
+      "description": "Cookies and cream cake is a delightful and indulgent dessert that combines the flavors of chocolate cookies and a rich cream filling"
+    },
+    {
+      "id": 9,
+      "itemName": "Fruit Cake",
+      "price": 4.99,
+      "rating": 4.3,
+      "category": "cakes",
+      "image": "Fruit Cake",
+      "description": "Fruit cake is a traditional and rich dessert that is often enjoyed during special occasions and holidays."
+    },
+    {
+      "id": 10,
+      "itemName": "Monster Theme Cake",
+      "price": 6.99,
+      "rating": 3.5,
+      "category": "cakes",
+      "image": "Monster Theme Cake",
+      "description": "A monster-themed cake is a fun and whimsical dessert that captures the imagination with its playful and colorful design. "
+    },
+    {
+      "id": 11,
+      "itemName": "Muffin Devil Horns",
+      "price": 4.99,
+      "rating": 2.5,
+      "category": "cakes",
+      "image": "Muffin Devil Horns",
+      "description": "Muffin devil horns are a playful and creative twist on traditional muffins. They are a perfect treat for Halloween parties or any event that calls for a touch of devilish fun."
+    },
+    {
+      "id": 12,
+      "itemName": "Muffin Ghost",
+      "price": 5.99,
+      "rating": 5,
+      "category": "cakes",
+      "image": "Muffin Ghost",
+      "description": "Muffin ghosts are adorable and spooky treats that are perfect for Halloween or any ghost-themed celebration. "
+    },
+    {
+      "id": 13,
+      "itemName": "Butter Cookies",
+      "price": 1.99,
+      "rating": 5,
+      "category": "cookies",
+      "image": "Butter Cookies",
+      "description": "Butter cookies are classic, melt-in-your-mouth treats that are loved by many. These cookies have a delicate and crumbly texture, and their rich buttery flavor makes them a perfect accompaniment to a cup of tea or coffee."
+    },
+    {
+      "id": 14,
+      "itemName": "Chocolate Cookies",
+      "price": 2.99,
+      "rating": 3.5,
+      "category": "cookies",
+      "image": "Chocolate Cookies",
+      "description": "Chocolate cookies are irresistible and decadent treats that are loved by chocolate enthusiasts of all ages. "
+    },
+    {
+      "id": 15,
+      "itemName": "Brownies Different Flavor",
+      "price": 4.99,
+      "rating": 4.2,
+      "category": "Brownies",
+      "image": "Brownies Different Flavor",
+      "description": "Brownies are a versatile and delicious dessert that can be made in various flavors to suit different preferences."
+    },
+    {
+      "id": 16,
+      "itemName": "Chocolate Summer Berries",
+      "price": 2.99,
+      "rating": 3.9,
+      "category": "Brownies",
+      "image": "Chocolate Summer Berries",
+      "description": "Chocolate summer berries are a delightful combination of rich chocolate and luscious, ripe berries that perfectly captures the flavors of the season."
+    },
+    {
+      "id": 17,
+      "itemName": "Isometric chocolate brownies",
+      "price": 1.99,
+      "rating": 5,
+      "category": "Brownies",
+      "image": "Isometric chocolate brownies",
+      "description": "Isometric chocolate brownies refer to brownies that are cut into geometric shapes, typically cubes or rectangular prisms, with equal sides and angles."
+    },
+    {
+      "id": 18,
+      "itemName": "Chocolate Bonbons",
+      "price": 3.99,
+      "rating": 4.6,
+      "category": "Brownies",
+      "image": "Chocolate Bonbons",
+      "description": "Chocolate bonbons are delectable bite-sized treats made with a combination of chocolate and various fillings."
+    }
+  ],
+  "OrderRequests": [
+    {
+      "customerName": "Ramya Boppudi",
+      "customerEmail": "ramyaboppudi9@gmail.com",
+      "customerPhone": "9345678912",
+      "orderDate": "2023-07-20T18:30:00.000Z",
+      "address": "svr colony, siruguppa",
+      "message": "happy birthday",
+      "quantity": 1,
+      "itemName": "Easter Cupcakes",
+      "id": 1
+    },
+    {
+      "customerName": "Ramya Boppudi",
+      "customerEmail": "ramyaboppudi9@gmail.com",
+      "customerPhone": "9345678912",
+      "orderDate": "2023-07-15T18:30:00.000Z",
+      "address": "Vuyyuru, Vijayawada",
+      "message": "happy birthday",
+      "quantity": 2,
+      "itemName": "Chocolate Blueberries Cake",
+      "id": 2
+    },
+    {
+      "customerName": "Ramya Boppudi",
+      "customerEmail": "ramyaboppudi9@gmail.com",
+      "customerPhone": "9345678913",
+      "orderDate": "2023-07-19T18:30:00.000Z",
+      "address": "Vuyyuru, Vijayawada",
+      "message": "happy birthday",
+      "quantity": 1,
+      "itemName": "Chocolate Cupcake",
+      "id": 4
+    },
+    {
+      "customerName": "Ramya Boppudi",
+      "customerEmail": "ramyaboppudi9@gmail.com",
+      "customerPhone": "9345678923",
+      "orderDate": "2023-07-19T18:30:00.000Z",
+      "address": "siruguppa, ballary",
+      "message": "happy birthday",
+      "quantity": 10,
+      "itemName": "Easter Cupcakes",
+      "id": 5
+    },
+    {
+      "customerName": "Ramya Boppudi",
+      "customerEmail": "ramyaboppudi9@gmail.com",
+      "customerPhone": "9345679123",
+      "orderDate": "2023-07-18T18:30:00.000Z",
+      "address": "tenali, guturu",
+      "message": "happy day",
+      "quantity": 1,
+      "itemName": "Berries Summer Cupcakes",
+      "id": 6
+    },
+    {
+      "customerName": "Ramya Boppudi",
+      "customerEmail": "ramyaboppudi9@gmail.com",
+      "customerPhone": "9345679123",
+      "orderDate": "2023-07-18T18:30:00.000Z",
+      "address": "gandiguta, Vijayawada",
+      "message": "happy day",
+      "quantity": 2,
+      "itemName": "Fruit Cake",
+      "id": 7
+    },
+    {
+      "customerName": "Rani",
+      "customerEmail": "rani@gmail.com",
+      "customerPhone": "9121335001",
+      "orderDate": "2023-07-26T18:30:00.000Z",
+      "address": "sr nagar, hyderabad",
+      "message": "happy birthday",
+      "quantity": 1,
+      "itemName": "Chocolate Blueberries Cake",
+      "id": 8
+    },
+    {
+      "customerName": "ramya",
+      "customerEmail": "ramya@gmail.com",
+      "customerPhone": "9121335111",
+      "orderDate": "2023-07-27T18:30:00.000Z",
+      "address": "gayatri nagar, Vijayawada",
+      "message": "happy birthday",
+      "quantity": 1,
+      "itemName": "Chocolate Blueberries Cake",
+      "id": 9
+    },
+    {
+      "customerName": "Ram",
+      "customerEmail": "ram@gmail.com",
+      "customerPhone": "7207035101",
+      "orderDate": "2023-07-31T18:30:00.000Z",
+      "address": "Vuyyuru, Vijayawada",
+      "message": "happy birthday",
+      "quantity": 1,
+      "itemName": "Chocolate Cupcake",
+      "id": 10
+    },
+    {
+      "customerName": "Ramya",
+      "customerEmail": "ramya@gmail.com",
+      "customerPhone": "7207035101",
+      "orderDate": "2023-08-08T18:30:00.000Z",
+      "address": "vijayawada, Ap",
+      "message": "Happy Birthday",
+      "quantity": 1,
+      "itemName": "Chocolate Blueberries Cake",
+      "id": 11
+    },
+    {
+      "customerName": "Ramya",
+      "customerEmail": "Ramya@gmail.com",
+      "customerPhone": "9492525433",
+      "orderDate": "2023-08-15T18:30:00.000Z",
+      "address": "Gayatri nagar, Hyd",
+      "message": "Happy Anniversary",
+      "quantity": 1,
+      "itemName": "Chocolate Cupcake",
+      "id": 12
+    },
+    {
+      "customerName": "Ramya",
+      "customerEmail": "ramya@gmail.com",
+      "customerPhone": "9121335101",
+      "orderDate": "2023-08-14T18:30:00.000Z",
+      "address": "flatno-405,sv residency ,vuyyuyu",
+      "message": "Happy Birthday",
+      "quantity": 1,
+      "itemName": "Chocolate Cupcake",
+      "id": 13
+    },
+    {
+      "customerName": "ramya",
+      "customerEmail": "ramya@gmail.com",
+      "customerPhone": "9121335111",
+      "orderDate": "2023-08-15T18:30:00.000Z",
+      "address": "vibha residency,vuyyuru,vijayawada",
+      "message": "Happy Anniversary",
+      "quantity": 1,
+      "itemName": "Chocolate Cupcake",
+      "id": 14
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#item-content {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#item-detail {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding : 0 10px;
+}
+
+
+#item-detail img {
+    width: 80%;
+}
+#item-detail p {
+    width: 80%;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#item-request {
+    width: 35%;
+    display: flex;
+    padding-left: 10px;
+    flex-direction: column;
+}
+
+#per-item {
+    font-size: small;
+}

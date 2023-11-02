@@ -1,0 +1,68 @@
+<mat-toolbar id="header" color="primary">
+    <h1>Order Requests</h1>
+    <nav>
+        <mat-icon routerLink="/" routerLinkActive="active">home</mat-icon>
+    </nav>
+    <nav>
+      <a routerLink="/" routerLinkActive="active"><button mat-raised-button color="primary">Logout</button></a>
+
+  </nav>
+  </mat-toolbar>
+  <section id="request-section">
+  
+    <table mat-table [dataSource]="orderRequests" class="mat-elevation-z8">
+  
+        <!--- Note that these columns can be defined in any order.
+              The actual rendered columns are set as a property on the row definition" -->
+      
+        
+        <!-- Name Column -->
+        <ng-container matColumnDef="customerName">
+          <th mat-header-cell *matHeaderCellDef> Name </th>
+          <td mat-cell *matCellDef="let element"> {{element.customerName}} </td>
+        </ng-container>
+      
+        <!-- Email Column -->
+        <ng-container matColumnDef="customerEmail">
+          <th mat-header-cell *matHeaderCellDef> Email </th>
+          <td mat-cell *matCellDef="let element"> {{element.customerEmail}} </td>
+        </ng-container>
+      
+        <!-- Phone Column -->
+        <ng-container matColumnDef="customerPhone">
+          <th mat-header-cell *matHeaderCellDef> Phone </th>
+          <td mat-cell *matCellDef="let element"> {{element.customerPhone}} </td>
+        </ng-container>
+      
+        <!--  Id Column -->
+        <ng-container matColumnDef="itemName">
+            <th mat-header-cell *matHeaderCellDef> Item Name </th>
+            <td mat-cell *matCellDef="let element"> {{element.itemName}} </td>
+        </ng-container>
+
+          <ng-container matColumnDef="orderDate">
+            <th mat-header-cell *matHeaderCellDef>Date of Order</th>
+            <td mat-cell *matCellDef="let element"> {{element.orderDate}} </td>
+          </ng-container>
+          
+          <ng-container matColumnDef="address">
+            <th mat-header-cell *matHeaderCellDef>Address</th>
+            <td mat-cell *matCellDef="let element"> {{element.address}} </td>
+          </ng-container>
+        <ng-container matColumnDef="message">
+            <th mat-header-cell *matHeaderCellDef> Message </th>
+            <td mat-cell *matCellDef="let element"> {{element.message}} </td>
+          </ng-container>
+          <ng-container matColumnDef="quantity">
+            <th mat-header-cell *matHeaderCellDef> Quantity </th>
+            <td mat-cell *matCellDef="let element"> {{element.quantity}} </td>
+          </ng-container>
+        
+  
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      
+      </table>
+      <!--<mat-paginator [length]="100" [pageSize]="10" (page)="handlePageEvent($event)" [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page"> </mat-paginator>-->
+
+  </section>

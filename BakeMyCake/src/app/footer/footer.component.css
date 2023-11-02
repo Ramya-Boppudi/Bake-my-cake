@@ -1,0 +1,35 @@
+footer{
+    display: grid;
+    grid-template-columns: 25% auto auto auto;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #0a0101 0%, #4661a0 74%);
+    margin-top: 0px;
+   }
+   footer h4{
+    color: wheat;
+   }
+   #footer ul {
+    list-style: none;
+  }
+  .connect img{
+ 
+    height: 25px;
+    float: left;
+    margin-right: 10px;
+  }
+  
+   #para p{
+    color: white;
+   }
+ #grid-container{
+    display: grid;
+ }
+ #service a{
+    color: white;
+ }
+ #company a{
+    color: white;
+ }
+ 
+ 
+ 

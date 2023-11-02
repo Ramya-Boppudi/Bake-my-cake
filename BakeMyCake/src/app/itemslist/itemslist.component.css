@@ -1,0 +1,28 @@
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+#search-note-panel{
+  margin-top: 20px;
+}
+.buttons {
+  margin-left: 400px; 
+}
+section{
+  background-color: plum;
+}
+.two {
+  margin-left: 15px;
+
+}
+.three {
+  margin-left: 15px;
+
+}
+.one{
+  margin-left: 15px;
+
+}
+
